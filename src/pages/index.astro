@@ -5,7 +5,7 @@ const pageTitle = "For The Love Of My Life";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h1>I Love You With All My Heart</h1>
+  <h1 id="welcome-message">I Love You With All My Heart</h1>
   <div class="flower">
     <div class="f-wrapper">
       <div class="flower__line"></div>
@@ -52,4 +52,8 @@ const pageTitle = "For The Love Of My Life";
     </div>
     <div class="flower__glass"></div>
   </div>
+  
+  <script>
+    import "../scripts/loveMessages.js";
+  </script>
 </BaseLayout>
